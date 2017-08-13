@@ -1,0 +1,70 @@
+body {
+	background-color: #fcfcfc;
+	font-family: Cabin;
+	height: 100%;
+}
+
+@font-face {
+    font-family: Cabin;
+    src: url(cabin/Cabin-Regular.ttf);
+}
+
+#city-country {
+	color: #878787;
+	font-size: 28px;
+}
+
+#deg {
+	color: #00b38b;
+	font-size: 33px;
+}
+
+#currency {
+	color: #878787;
+	font-size: 24px;
+}
+
+span {
+	font-weight: bold;
+}
+
+p {
+	line-height: 50%;
+}
+
+.icon {
+ 	display: inline-block;
+  	stroke-width: 0;
+  	stroke: currentColor;
+  	fill: currentColor;
+  	color: #00b38b;
+}
+
+.float-right {
+	float: right;
+}
+
+#info-block {
+  	height: 200px;
+  	width: 100%;
+  	position: relative;
+    top: 50%;
+    margin: -100px auto;
+}
+
+#icon-block {
+	width: 50%;
+}
+
+#text-block {
+	width: 50%;
+}
+
+#icon-mobile {
+	width: 100%;
+  	text-align: center;
+}
+
+#text-mobile {
+	text-align: center;
+}
